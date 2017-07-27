@@ -1,0 +1,110 @@
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/bg1"
+    tools:context="com.calamity_assist.calamityassist.FeedBack">
+<TextView
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+
+    android:text="FeedBack"
+    android:textAllCaps="false"
+    android:textAlignment="center"
+    android:textSize="30dp"
+    android:gravity="center_horizontal"
+    android:fontFamily="@android:string/dialog_alert_title"
+    android:textColor="@color/white"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:layout_alignParentStart="true"
+    android:layout_marginTop="88dp" />
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:layout_marginTop="170dp"
+    android:layout_alignParentTop="true"
+    android:layout_alignParentLeft="true"
+    android:orientation="vertical">
+
+
+          <EditText
+              android:inputType="text"
+              android:drawableLeft="@drawable/person"
+              android:background="@drawable/edit_text"
+              android:layout_gravity="center_horizontal"
+              android:layout_width="300dp"
+              android:layout_height="50dp"
+              android:hint="Name"
+              android:id="@+id/f_name"
+              />
+    </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal"
+        android:layout_marginTop="230dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        >
+
+        <EditText
+            android:inputType="textEmailAddress"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/email_contect"
+            android:layout_gravity="center_horizontal"
+            android:layout_width="300dp"
+            android:layout_height="50dp"
+            android:hint="Email"
+            android:id="@+id/f_email"
+            android:layoutDirection="inherit"
+
+            />
+</LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="290dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        >
+
+        <EditText
+            android:id="@+id/f_comment"
+            android:layout_width="300dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/edit_text"
+            android:drawableLeft="@drawable/comment"
+            android:hint="Comment"
+            android:layoutDirection="inherit"
+            android:selectAllOnFocus="true"
+            />
+
+        <Button
+            android:id="@+id/f_send"
+            android:layout_width="100dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="10dp"
+            android:hint="Send"
+            android:textSize="20dp"
+            android:drawableRight="@drawable/right"
+            android:textAlignment="inherit"
+
+       />
+    </LinearLayout>
+
+</RelativeLayout>
+</ScrollView>

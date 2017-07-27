@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#31636b</color>
+    <color name="colorPrimaryDark">#2b1d31</color>
+    <color name="colorAccent">#f1eaed</color>
+
+
+    <color name="bg">#e3306068</color>
+    <color name="bg1">#e304090a</color>
+    <!--Color is login Screen-->
+    <color name="login">#2b1d31</color>
+
+    <color name="textview">#fbf0fe</color>
+
+    <color name="btn">#887b70</color>
+
+    <!--BackGround Color-->
+    <color name="bg_screen1">#b12515</color>
+    <color name="bg_screen2">#FFBB00</color>
+    <color name="bg_screen3">#74a443</color>
+
+    <!--Dots active colors-->
+
+    <color name="dot_active">#000000</color>
+
+    <!--Dots inactive colors-->
+
+    <color name="dot_inactive">#cccccc</color>
+    <color name="accent_material_light_1">#da009688</color>
+
+    <color name="back">#6439d19a</color>
+
+    <color name="white">#FFFFFF</color>
+
+    <color name="appointment">#da09d766</color>
+
+    <color name="pr">#ffffff</color>
+
+
+
+</resources>

@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_login_screen"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/trin2"
+    tools:context="com.calamity_assist.calamityassist.Login_screen">
+
+    <ImageView
+        android:layout_marginTop="10dp"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:src="@drawable/name_logo"
+        android:shadowColor="#fafdfd"
+        android:shadowDx="0"
+        android:shadowDy="0"
+        android:shadowRadius="10"
+        android:id="@+id/imageView"
+        android:layout_below="@+id/textView"
+        android:layout_centerHorizontal="true" />
+
+    <TextView android:text="@string/app_name"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="60dp"
+        android:textSize="30dp"
+        android:textColor="@color/textview"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textView"
+        android:layout_alignParentTop="true"
+        android:layout_alignRight="@+id/imageView"
+        android:layout_alignEnd="@+id/imageView" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <Button
+            android:text="Login"
+            android:textColor="#FFFFFF"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/login1"
+            android:background="@drawable/btn_shape"
+            android:onClick="LoginMethod"
+            android:layout_marginLeft="9dp"
+            android:layout_marginTop="400dp"
+            android:layout_alignBaseline="@+id/activity_login_screen_singup"
+            android:layout_alignBottom="@+id/activity_login_screen_singup"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+
+        <Button
+            android:layout_width="150dp"
+            android:layout_height="50dp"
+            android:id="@+id/activity_login_screen_singup"
+            android:text="Sign in"
+            android:textColor="@color/textview"
+            android:background="@drawable/btn_shape"
+            android:layout_marginLeft="40dp"
+            android:layout_below="@+id/imageView"
+            android:layout_marginTop="400dp"
+            android:onClick="Sign_up"
+            />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

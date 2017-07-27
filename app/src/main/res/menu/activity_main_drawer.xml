@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<group android:checkableBehavior="single">
+    <item
+        android:id="@+id/home_id"
+        android:icon="@mipmap/home_bottombar"
+        android:title="Home" />
+        <item
+            android:id="@+id/auto_mobile"
+            android:icon="@mipmap/reapair"
+            android:title="Auto Mobile" />
+
+        <item
+            android:id="@+id/police_staion"
+            android:icon="@mipmap/police"
+            android:title="Police Station" />
+
+        <item
+            android:id="@+id/hospital_root"
+            android:icon="@mipmap/hos1"
+            android:title="Hospital" />
+
+        <item
+            android:id="@+id/blood_bank"
+            android:icon="@mipmap/blood"
+            android:title="Blood Bank" />
+        <item
+
+            android:id="@+id/nav_report"
+            android:icon="@drawable/ic_assignment_black_24dp"
+            android:title="Report"
+        />
+
+
+    <item
+        android:icon="@drawable/feedback1"
+        android:id="@+id/feedback"
+        android:orderInCategory="100"
+        android:title="Feedback"
+        app:showAsAction="never" />
+        <item
+            android:id="@+id/profile"
+            android:orderInCategory="100"
+            android:icon="@drawable/account"
+            android:title="Profile"
+            app:showAsAction="never" />
+        <item
+
+            android:icon="@drawable/ic_exit_to_app_black_24dp"
+            android:id="@+id/Logout"
+            android:orderInCategory="100"
+            android:title="Logout"
+            app:showAsAction="never" />
+</group>
+</menu>

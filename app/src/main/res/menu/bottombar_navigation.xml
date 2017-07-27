@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+<item
+    android:id="@+id/home"
+    android:icon="@mipmap/home_bottombar"
+    android:title="Home"
+    ></item>
+    <item
+        android:id="@+id/Hospital"
+        android:icon="@mipmap/hos1"
+        android:title="Hospital"
+
+        ></item>
+    <item
+        android:id="@+id/AutoMobileShope"
+        android:icon="@mipmap/reapair"
+        android:title="AutoMobileShope"
+        ></item>
+    <item
+        android:id="@+id/Insurance"
+        android:icon="@mipmap/vehicleinsurace"
+        android:title="Insurance"
+        ></item>
+    <item
+        android:id="@+id/Profile"
+        android:icon="@mipmap/home_bottombar"
+        android:title="Profile"
+        ></item>
+</menu>

@@ -1,0 +1,64 @@
+<resources>
+    <string name="app_name">CalamityAssist</string>
+    <string name="Login_Now">Login Now!</string>
+    <string name="Forgot_Now">Forgot Password!</string>
+
+
+    <string name="next">Next</string>
+    <string name="skip">Skip</string>
+    <string name="start">Start</string>
+    <string name="title_silde1">Connect the charger</string>
+    <string name="desc_slide1">It will start automatically when charger is connected</string>
+    <string name="title_silde2">Battery status update</string>
+    <string name="desc_slide2">It will keep your update battery  cahrgeing status through notification and home</string>
+    <string name="title_silde3">Alert on 100%</string>
+    <string name="desc_slide3">It will alert you when battery reachea 100%</string>
+    <string name="email_id">Email id</string>
+    <string name="password">Password</string>
+    <string name="login">LOGIN</string>
+    <string name="reset_password">OTP Password</string>
+    <string name="title_activity_main">MainActivity</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Map</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Police Station Report</string>
+
+
+    <string-array name="place_type">
+        <item>airport</item>
+        <item>atm</item>
+        <item>hospital</item>
+        <item>bus_station</item>
+        <item>church</item>
+        <item>doctor</item>
+        <item>bank</item>
+        <item>mosque</item>
+        <item>movie_theater</item>
+        <item>hindu_temple</item>
+        <item>restaurant</item>
+        <item>automobile</item>
+    </string-array>
+
+    <string-array name="place_type_name">
+        <item>Airport</item>
+        <item>ATM</item>
+        <item>Hospital</item>
+        <item>Bus Station</item>
+        <item>Church</item>
+        <item>Doctor</item>
+        <item>Bank</item>
+        <item>Mosque</item>
+        <item>Movie Theater</item>
+        <item>Hindu Temple</item>
+        <item>Restaurant</item>
+        <item>Auto Mobile</item>
+
+    </string-array>
+
+
+</resources>

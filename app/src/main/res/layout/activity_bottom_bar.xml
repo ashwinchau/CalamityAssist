@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:design="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_bottom_bar"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/car7"
+    tools:context="com.calamity_assist.calamityassist.Bottom_bar">
+    <android.support.design.widget.BottomNavigationView
+        android:layout_width="match_parent"
+        android:background="@color/bg"
+        design:itemIconTint="@color/dot_inactive"
+        design:itemTextColor="@color/dot_inactive"
+        android:layout_height="wrap_content"
+        design:menu="@menu/bottombar_navigation"
+        android:layout_gravity="bottom"
+        android:id="@+id/activity_bottom_bar__navigtion_drawn"
+
+
+        />
+
+</android.support.design.widget.CoordinatorLayout>

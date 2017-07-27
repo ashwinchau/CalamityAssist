@@ -1,0 +1,153 @@
+<!--
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.calamity_assist.calamityassist.police.policestation_report">
+
+    &lt;!&ndash; TODO: Update blank fragment layout &ndash;&gt;
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="@string/hello_blank_fragment" />
+
+</FrameLayout>
+-->
+
+
+
+<ScrollView android:layout_height="match_parent"
+    android:layout_width="wrap_content"
+    android:fillViewport="true"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+    <RelativeLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@color/bg1"
+        tools:context="com.calamity_assist.calamityassist.police.policestation_report">
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="PoliceStation Report Details "
+            android:textAllCaps="false"
+            android:textAlignment="center"
+            android:textSize="28dp"
+            android:gravity="center_horizontal"
+            android:fontFamily="@android:string/dialog_alert_title"
+            android:textColor="@color/white"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="88dp" />
+        <!-- TODO: Update blank fragment layout -->
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="150dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+
+
+            <ImageView
+                android:layout_width="200dp"
+                android:layout_height="80dp"
+                android:layout_gravity="right"
+                android:id="@+id/policesatation_report_image"
+                android:src="@drawable/ic_photo_camera_black_24dp"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:text="Choose Image"
+                android:textSize="20dp"
+                android:paddingLeft="40dp"
+                android:gravity="left"
+                android:layout_marginTop="-50dp"
+                android:textColor="@color/pr"/>
+
+
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="250dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical">
+
+
+            <EditText
+                android:inputType="text"
+                android:background="@drawable/edit_text"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="50dp"
+                android:hint=" Current Accident Address"
+                android:id="@+id/accident_address"
+                />
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="310dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            >
+
+            <EditText
+                android:inputType="text"
+                android:background="@drawable/edit_text"
+                android:layout_gravity="center_horizontal"
+                android:layout_width="300dp"
+                android:layout_height="150dp"
+                android:hint="Statement"
+                android:maxLength="10"
+                android:id="@+id/witness_phone"
+                android:layoutDirection="inherit"
+
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="290dp"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentLeft="true"
+            android:orientation="vertical"
+            android:gravity="center_horizontal"
+            >
+            <Button
+                android:id="@+id/witness_details"
+                android:layout_width="150dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="180dp"
+                android:text="SUBMIT"
+                android:textSize="20dp"
+                android:drawableRight="@drawable/right"
+                android:textAlignment="inherit"
+
+                />
+        </LinearLayout>
+
+    </RelativeLayout>
+</ScrollView>

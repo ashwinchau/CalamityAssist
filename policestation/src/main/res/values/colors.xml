@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#272b71</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#a5a6aa</color>
+
+    <color name="textview">#fbf0fe</color>
+    <color name="bg">#505358</color>
+    <color name="btn_bg">#45c8ba</color>
+
+    <color name="btn">#887b70</color>
+
+
+    <color name="edit_text">#ece9e6</color>
+
+    <color name="image_color">#272b71</color>
+
+    <color name="email_color">#880209</color>
+
+</resources>
